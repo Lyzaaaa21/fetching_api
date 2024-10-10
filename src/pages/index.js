@@ -62,6 +62,7 @@ function Example() {
             <TableCell className="text-base font-semibold leading-7 tracking-tight text-gray-900">{data.Nation}</TableCell>
             <TableCell>{data.Year}</TableCell>
             <TableCell>{data.Population}</TableCell>
+            <TableCell className="text-right">{data['Slug Nation']}</TableCell>
             
             {/* <TableCell className="text-right">{}</TableCell> */}
           </TableRow>
